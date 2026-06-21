@@ -3,7 +3,7 @@
 El laboratorio de seguridad de Black Hat Bash se ha levantado de forma exitosa en el entorno aislado de Debian.
 
 ## Evidencia de Funcionamiento
-![Laboratorio Activo](lab_up.png)
+![Laboratorio Activo](lab_up.PNG)
 
 ## Tabla de Arquitectura del Laboratorio
 
