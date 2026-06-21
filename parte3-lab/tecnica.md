@@ -22,3 +22,6 @@ El escaneo de Nmap arrojó el siguiente resultado crítico:
 
 ### Análisis Crítico:
 El descubrimiento del servidor web **Werkzeug** revela que la aplicación está desarrollada utilizando un entorno de desarrollo basado en Python (como Flask o Django). En un entorno real de producción, el uso de Werkzeug expuesto directamente en el puerto 8081 se considera una mala práctica de seguridad. Si el modo de depuración (*debug mode*) se encuentra encendido, un atacante podría aprovechar la consola interactiva para ejecutar código de forma remota y tomar control total del contenedor público, usándolo como puente para saltar hacia la red corporativa interna (`10.1.0.0/24`).
+
+## 4. Evidencia Visual del Ataque
+![Resultado del Escaneo Nmap](nmap_scan.PNG)
