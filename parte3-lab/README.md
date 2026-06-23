@@ -30,5 +30,10 @@ The infrastructure enforces strict network segmentation into two primary securit
 
 ## 3. Operational Evidence
 The active provisioning state of the corporate range is verified below:
+---
+
+## 📄 Supplementary Technical Content
+* Extended technical workflows and configuration exploits can be reviewed in our main English asset file: [tecnica.md](tecnica.md).
+
 
 ![Lab Deployment Evidence](lab_up.PNG)
