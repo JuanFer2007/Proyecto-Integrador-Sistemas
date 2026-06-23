@@ -1,18 +1,34 @@
-# Parte 3.A - Laboratorio de Hacking Desplegado
+# Part 3.A - Corporate Cyber Range & Lab Deployment
 
-El laboratorio de seguridad de Black Hat Bash se ha levantado de forma exitosa en el entorno aislado de Debian.
+This section documents the successful provisioning and deployment of the automated corporate lab infrastructure designed to simulate a multi-tiered segmented network environment.
 
-## Evidencia de Funcionamiento
-![Laboratorio Activo](lab_up.PNG)
+## 1. Deployment Verification
+The containerized network architecture was initialized via Docker Compose. The environment status was audited using the native platform test suite:
 
-## Tabla de Arquitectura del Laboratorio
+```bash
+sudo make test
+```
 
-| Contenedor (Máquina) | Red Pública (IP) | Red Corporativa (IP) | Rol del Sistema |
+* **System Response:** `Lab is up.` 
+This output confirms that all 8 decoupled microservices and isolated virtual routing switches are operational and correctly bound to their designated networks.
+
+## 2. Network Topology & Architecture Matrix
+
+The infrastructure enforces strict network segmentation into two primary security boundaries: the **Public Subnet** (accessible from external vectors) and the **Corporate Subnet** (air-gapped backend database and services).
+
+| Container Hostname | Public Network (IP) | Corporate Network (IP) | Infrastructure Role |
 | :--- | :--- | :--- | :--- |
-| **p-web-01** | 172.16.10.10 | - | Servidor Web Público (Target principal) |
-| **p-web-02** | 172.16.10.11 | - | Servidor Web de Soporte |
-| **p-ftp-01** | 172.16.10.20 | - | Servidor FTP de la empresa |
-| **c-db-01** | - | 10.1.0.10 | Base de datos interna (Aislada) |
-| **c-mail-01** | - | 10.1.0.20 | Servidor de correo corporativo |
+| **p-web-01** | 172.16.10.10 | - | Primary Public Web Server (Primary Target) |
+| **p-web-02** | 172.16.10.11 | - | Auxiliary Support Web Node |
+| **p-ftp-01** | 172.16.10.20 | - | Corporate Public File Transfer Protocol (FTP) Server |
+| **c-db-01** | - | 10.1.0.10 | Internal Relational Database Management System (Air-gapped) |
+| **c-mail-01** | - | 10.1.0.20 | Secure Internal Corporate Mail Gateway |
 
-*Interfaces de red validadas:* `br_public` (Rango 172.16.10.0/24) y `br_corporate` (Rango 10.1.0.0/24).
+* **Validated Network Interfaces:** 
+  * `br_public` (Subnet Range: 172.16.10.0/24)
+  * `br_corporate` (Subnet Range: 10.1.0.0/24)
+
+## 3. Operational Evidence
+The active provisioning state of the corporate range is verified below:
+
+![Lab Deployment Evidence](lab_up.PNG)
