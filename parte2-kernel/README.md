@@ -35,8 +35,8 @@ The automation layer forces explicit compiler optimization overrides to ensure s
 The following screenshots document the operational viability of our freestanding kernel operating within a system emulator:
 
 ### 1. GNU GRUB MultiBoot2 Initial Boot Selection Interface
-![GRUB Bootloader Verification](grub.png)
+![GRUB Bootloader Verification](grub.PNG)
 
 ### 2. High-Level Freestanding C Kernel Execution Rendered in VGA Video Memory
-![64-bit Long Mode Live Screen](kernel.png)
+![64-bit Long Mode Live Screen](Kernel.PNG)
 
