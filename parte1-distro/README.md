@@ -45,6 +45,8 @@ Below are the visual anchors documenting the successful generation and hardware 
 ### 1. Live ISO Customization Interface via Cubic
 ![Cubic Console Environment](Cubic customize.PNG)
 
+
 ### 2. QEMU Emulation and Custom `.bashrc` Greeting Banner Verification
 ![Live Session Verification](Cubic Final.png)
+
 
