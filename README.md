@@ -1,6 +1,6 @@
 # Systems Engineering Integrated Project — Advanced Linux Infrastructures
 
-## Research Group Members & Operational Roles
+## 👥 Research Group Members & Operational Roles
 * **Juan Pindo Reinoso (Lead Systems Architect):** Engineered the freestanding monolithic 64-bit Kernel boot architecture, low-level Multiboot2 boundary alignment, and multi-level identity-mapped paging directories.
 * **Jose (Operating System Distribution Engineer):** Executed the custom OS compilation pipeline, package lifecycle pruning, and persistent master profile provisioning (`/etc/skel`) via Cubic.
 * **Dheivid (Infrastructure Lab Deployment Specialist):** Orchestrated the Black Hat Bash multi-network containerized environment and isolated security topology parameters.
@@ -8,9 +8,9 @@
 
 ---
 
-## Multi-System Unified Demonstration Video
+## 📹 Multi-System Unified Demonstration Video
 To satisfy the automated verification requirements, our comprehensive video demonstration detailing the operational lifecycle of all three decoupled architectural components can be viewed here:
-**[INSERT YOUR UNIQUE DRIVE OR YOUTUBE LINK HERE]**
+👉 **[INSERT YOUR UNIQUE DRIVE OR YOUTUBE LINK HERE]**
 
 ---
 
@@ -21,7 +21,7 @@ To adhere to clean repository workflows (*Tidy repo* parameters), large compiled
 
 ---
 
-## Complete Technical Reproducibility Instructions
+## 🛠️ Complete Technical Reproducibility Instructions
 
 ### Part 1 — Custom Operating System Provisioning (Cubic Architecture)
 1. Initialize the customized build context on an Ubuntu derivative environment by executing the staging repository hooks:
