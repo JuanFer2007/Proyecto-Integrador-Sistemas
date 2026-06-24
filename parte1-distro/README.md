@@ -43,8 +43,8 @@ To achieve a production-ready, customized environment, we executed an isolated v
 Below are the visual anchors documenting the successful generation and hardware emulation of our custom ISO:
 
 ### 1. Live ISO Customization Interface via Cubic
-![Cubic Console Environment](cubic_personalizacion.png)
+![Cubic Console Environment](Cubic customize.PNG)
 
 ### 2. QEMU Emulation and Custom `.bashrc` Greeting Banner Verification
-![Live Session Verification](distro_boot.png)
+![Live Session Verification](Cubic Final.png)
 
