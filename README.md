@@ -8,16 +8,16 @@
 
 ---
 
-##Multi-System Unified Demonstration Video
+## 📹 Multi-System Unified Demonstration Video
 To satisfy the automated verification requirements, our comprehensive video demonstration detailing the operational lifecycle of all three decoupled architectural components can be viewed here:
  **[INSERT YOUR UNIQUE DRIVE OR YOUTUBE LINK HERE]**
 
 ---
 
-##Stable Engineering Artifacts & Executable Downloads
+## Stable Engineering Artifacts & Executable Downloads
 To adhere to clean repository workflows (*Tidy repo* parameters), large compiled binary components are securely decoupled from our standard source trees and hosted inside our releases pipeline [1.10]:
-* **Custom Enterprise Linux ISO (Part 1):** Available for direct media bootstrapping at our [Latest Production Releases Section](https://github.com).
-* **Freestanding 64-bit Core Kernel Image (Part 2):** Hosted as an independent boot disk inside our asset layer at [v1.0 Releases Workspace](https://github.com).
+* **Custom Enterprise Linux ISO (Part 1):** Available for direct media bootstrapping at our [v1.0 Releases Workspace](https://github.com/JuanFer2007/Proyecto-Integrador-Sistemas/releases/tag/v1.0).
+* **Freestanding 64-bit Core Kernel Image (Part 2):** Hosted as an independent boot disk inside our asset layer at [v1.0 Releases Workspace](https://github.com/JuanFer2007/Proyecto-Integrador-Sistemas/releases/tag/v1.0).
 
 ---
 
@@ -65,4 +65,3 @@ To adhere to clean repository workflows (*Tidy repo* parameters), large compiled
    ```bash
    make test
    ```
-
