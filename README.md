@@ -1,6 +1,6 @@
 # Systems Engineering Integrated Project — Advanced Linux Infrastructures
 
-## 👥 Research Group Members & Operational Roles
+## Research Group Members & Operational Roles
 * **Juan Pindo Reinoso (Lead Systems Architect):** Engineered the freestanding monolithic 64-bit Kernel boot architecture, low-level Multiboot2 boundary alignment, and multi-level identity-mapped paging directories.
 * **Jose (Operating System Distribution Engineer):** Executed the custom OS compilation pipeline, package lifecycle pruning, and persistent master profile provisioning (`/etc/skel`) via Cubic.
 * **Dheivid (Infrastructure Lab Deployment Specialist):** Orchestrated the Black Hat Bash multi-network containerized environment and isolated security topology parameters.
@@ -8,20 +8,20 @@
 
 ---
 
-## 📹 Multi-System Unified Demonstration Video
+##Multi-System Unified Demonstration Video
 To satisfy the automated verification requirements, our comprehensive video demonstration detailing the operational lifecycle of all three decoupled architectural components can be viewed here:
-👉 **[INSERT YOUR UNIQUE DRIVE OR YOUTUBE LINK HERE]**
+ **[INSERT YOUR UNIQUE DRIVE OR YOUTUBE LINK HERE]**
 
 ---
 
-## 💿 Stable Engineering Artifacts & Executable Downloads
+##Stable Engineering Artifacts & Executable Downloads
 To adhere to clean repository workflows (*Tidy repo* parameters), large compiled binary components are securely decoupled from our standard source trees and hosted inside our releases pipeline [1.10]:
 * **Custom Enterprise Linux ISO (Part 1):** Available for direct media bootstrapping at our [Latest Production Releases Section](https://github.com).
 * **Freestanding 64-bit Core Kernel Image (Part 2):** Hosted as an independent boot disk inside our asset layer at [v1.0 Releases Workspace](https://github.com).
 
 ---
 
-## 🛠️ Complete Technical Reproducibility Instructions
+## Complete Technical Reproducibility Instructions
 
 ### Part 1 — Custom Operating System Provisioning (Cubic Architecture)
 1. Initialize the customized build context on an Ubuntu derivative environment by executing the staging repository hooks:
@@ -65,3 +65,4 @@ To adhere to clean repository workflows (*Tidy repo* parameters), large compiled
    ```bash
    make test
    ```
+
